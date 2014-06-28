@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B1D773195EF2B200A9FD47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D772195EF2B200A9FD47 /* Foundation.framework */; };
+		57B1D775195EF2B200A9FD47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */; };
+		57B1D777195EF2B200A9FD47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D776195EF2B200A9FD47 /* UIKit.framework */; };
+		57B1D77D195EF2B300A9FD47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D77B195EF2B300A9FD47 /* InfoPlist.strings */; };
+		57B1D77F195EF2B300A9FD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1D77E195EF2B300A9FD47 /* main.m */; };
+		57B1D783195EF2B300A9FD47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1D782195EF2B300A9FD47 /* AppDelegate.m */; };
+		57B1D785195EF2B300A9FD47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D784195EF2B300A9FD47 /* Images.xcassets */; };
+		57B1D78C195EF2B300A9FD47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D78B195EF2B300A9FD47 /* XCTest.framework */; };
+		57B1D78D195EF2B300A9FD47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D772195EF2B200A9FD47 /* Foundation.framework */; };
+		57B1D78E195EF2B300A9FD47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D776195EF2B200A9FD47 /* UIKit.framework */; };
+		57B1D796195EF2B300A9FD47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D794195EF2B300A9FD47 /* InfoPlist.strings */; };
+		57B1D798195EF2B300A9FD47 /* SmartRecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1D797195EF2B300A9FD47 /* SmartRecoderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B1D78F195EF2B300A9FD47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B1D767195EF2B200A9FD47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B1D76E195EF2B200A9FD47;
+			remoteInfo = SmartRecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57B1D76F195EF2B200A9FD47 /* SmartRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B1D772195EF2B200A9FD47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57B1D776195EF2B200A9FD47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57B1D77A195EF2B200A9FD47 /* SmartRecoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartRecoder-Info.plist"; sourceTree = "<group>"; };
+		57B1D77C195EF2B300A9FD47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57B1D77E195EF2B300A9FD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B1D780195EF2B300A9FD47 /* SmartRecoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartRecoder-Prefix.pch"; sourceTree = "<group>"; };
+		57B1D781195EF2B300A9FD47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57B1D782195EF2B300A9FD47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B1D784195EF2B300A9FD47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57B1D78A195EF2B300A9FD47 /* SmartRecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartRecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B1D78B195EF2B300A9FD47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		57B1D793195EF2B300A9FD47 /* SmartRecoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartRecoderTests-Info.plist"; sourceTree = "<group>"; };
+		57B1D795195EF2B300A9FD47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57B1D797195EF2B300A9FD47 /* SmartRecoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRecoderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B1D76C195EF2B200A9FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D775195EF2B200A9FD47 /* CoreGraphics.framework in Frameworks */,
+				57B1D777195EF2B200A9FD47 /* UIKit.framework in Frameworks */,
+				57B1D773195EF2B200A9FD47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B1D787195EF2B300A9FD47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D78C195EF2B300A9FD47 /* XCTest.framework in Frameworks */,
+				57B1D78E195EF2B300A9FD47 /* UIKit.framework in Frameworks */,
+				57B1D78D195EF2B300A9FD47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B1D766195EF2B200A9FD47 = {
+			isa = PBXGroup;
+			children = (
+				57B1D778195EF2B200A9FD47 /* SmartRecoder */,
+				57B1D791195EF2B300A9FD47 /* SmartRecoderTests */,
+				57B1D771195EF2B200A9FD47 /* Frameworks */,
+				57B1D770195EF2B200A9FD47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B1D770195EF2B200A9FD47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D76F195EF2B200A9FD47 /* SmartRecoder.app */,
+				57B1D78A195EF2B300A9FD47 /* SmartRecoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B1D771195EF2B200A9FD47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D772195EF2B200A9FD47 /* Foundation.framework */,
+				57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */,
+				57B1D776195EF2B200A9FD47 /* UIKit.framework */,
+				57B1D78B195EF2B300A9FD47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57B1D778195EF2B200A9FD47 /* SmartRecoder */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D781195EF2B300A9FD47 /* AppDelegate.h */,
+				57B1D782195EF2B300A9FD47 /* AppDelegate.m */,
+				57B1D784195EF2B300A9FD47 /* Images.xcassets */,
+				57B1D779195EF2B200A9FD47 /* Supporting Files */,
+			);
+			path = SmartRecoder;
+			sourceTree = "<group>";
+		};
+		57B1D779195EF2B200A9FD47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D77A195EF2B200A9FD47 /* SmartRecoder-Info.plist */,
+				57B1D77B195EF2B300A9FD47 /* InfoPlist.strings */,
+				57B1D77E195EF2B300A9FD47 /* main.m */,
+				57B1D780195EF2B300A9FD47 /* SmartRecoder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B1D791195EF2B300A9FD47 /* SmartRecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D797195EF2B300A9FD47 /* SmartRecoderTests.m */,
+				57B1D792195EF2B300A9FD47 /* Supporting Files */,
+			);
+			path = SmartRecoderTests;
+			sourceTree = "<group>";
+		};
+		57B1D792195EF2B300A9FD47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B1D793195EF2B300A9FD47 /* SmartRecoderTests-Info.plist */,
+				57B1D794195EF2B300A9FD47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B1D76E195EF2B200A9FD47 /* SmartRecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B1D79B195EF2B300A9FD47 /* Build configuration list for PBXNativeTarget "SmartRecoder" */;
+			buildPhases = (
+				57B1D76B195EF2B200A9FD47 /* Sources */,
+				57B1D76C195EF2B200A9FD47 /* Frameworks */,
+				57B1D76D195EF2B200A9FD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRecoder;
+			productName = SmartRecoder;
+			productReference = 57B1D76F195EF2B200A9FD47 /* SmartRecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B1D789195EF2B300A9FD47 /* SmartRecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B1D79E195EF2B300A9FD47 /* Build configuration list for PBXNativeTarget "SmartRecoderTests" */;
+			buildPhases = (
+				57B1D786195EF2B300A9FD47 /* Sources */,
+				57B1D787195EF2B300A9FD47 /* Frameworks */,
+				57B1D788195EF2B300A9FD47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B1D790195EF2B300A9FD47 /* PBXTargetDependency */,
+			);
+			name = SmartRecoderTests;
+			productName = SmartRecoderTests;
+			productReference = 57B1D78A195EF2B300A9FD47 /* SmartRecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B1D767195EF2B200A9FD47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "양동길";
+				TargetAttributes = {
+					57B1D789195EF2B300A9FD47 = {
+						TestTargetID = 57B1D76E195EF2B200A9FD47;
+					};
+				};
+			};
+			buildConfigurationList = 57B1D76A195EF2B200A9FD47 /* Build configuration list for PBXProject "SmartRecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57B1D766195EF2B200A9FD47;
+			productRefGroup = 57B1D770195EF2B200A9FD47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B1D76E195EF2B200A9FD47 /* SmartRecoder */,
+				57B1D789195EF2B300A9FD47 /* SmartRecoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B1D76D195EF2B200A9FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D77D195EF2B300A9FD47 /* InfoPlist.strings in Resources */,
+				57B1D785195EF2B300A9FD47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B1D788195EF2B300A9FD47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D796195EF2B300A9FD47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B1D76B195EF2B200A9FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D783195EF2B300A9FD47 /* AppDelegate.m in Sources */,
+				57B1D77F195EF2B300A9FD47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B1D786195EF2B300A9FD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B1D798195EF2B300A9FD47 /* SmartRecoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B1D790195EF2B300A9FD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B1D76E195EF2B200A9FD47 /* SmartRecoder */;
+			targetProxy = 57B1D78F195EF2B300A9FD47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57B1D77B195EF2B300A9FD47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B1D77C195EF2B300A9FD47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57B1D794195EF2B300A9FD47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B1D795195EF2B300A9FD47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B1D799195EF2B300A9FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B1D79A195EF2B300A9FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B1D79C195EF2B300A9FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartRecoder/SmartRecoder-Prefix.pch";
+				INFOPLIST_FILE = "SmartRecoder/SmartRecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57B1D79D195EF2B300A9FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartRecoder/SmartRecoder-Prefix.pch";
+				INFOPLIST_FILE = "SmartRecoder/SmartRecoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		57B1D79F195EF2B300A9FD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartRecoder.app/SmartRecoder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartRecoder/SmartRecoder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartRecoderTests/SmartRecoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		57B1D7A0195EF2B300A9FD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartRecoder.app/SmartRecoder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartRecoder/SmartRecoder-Prefix.pch";
+				INFOPLIST_FILE = "SmartRecoderTests/SmartRecoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B1D76A195EF2B200A9FD47 /* Build configuration list for PBXProject "SmartRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B1D799195EF2B300A9FD47 /* Debug */,
+				57B1D79A195EF2B300A9FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B1D79B195EF2B300A9FD47 /* Build configuration list for PBXNativeTarget "SmartRecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B1D79C195EF2B300A9FD47 /* Debug */,
+				57B1D79D195EF2B300A9FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57B1D79E195EF2B300A9FD47 /* Build configuration list for PBXNativeTarget "SmartRecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B1D79F195EF2B300A9FD47 /* Debug */,
+				57B1D7A0195EF2B300A9FD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B1D767195EF2B200A9FD47 /* Project object */;
+}
