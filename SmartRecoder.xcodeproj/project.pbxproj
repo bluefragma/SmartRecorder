@@ -19,6 +19,11 @@
 		57B1D78E195EF2B300A9FD47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D776195EF2B200A9FD47 /* UIKit.framework */; };
 		57B1D796195EF2B300A9FD47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D794195EF2B300A9FD47 /* InfoPlist.strings */; };
 		57B1D798195EF2B300A9FD47 /* SmartRecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B1D797195EF2B300A9FD47 /* SmartRecoderTests.m */; };
+		57B1D7EF1960803600A9FD47 /* MainWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7EE1960803600A9FD47 /* MainWindows.xib */; };
+		57B1D7F31960981E00A9FD47 /* gauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F01960981E00A9FD47 /* gauge.png */; };
+		57B1D7F41960981E00A9FD47 /* record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F11960981E00A9FD47 /* record_off.png */; };
+		57B1D7F51960981E00A9FD47 /* record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F21960981E00A9FD47 /* record_on.png */; };
+		57B1D7F71960982900A9FD47 /* listicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F61960982900A9FD47 /* listicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,11 @@
 		57B1D793195EF2B300A9FD47 /* SmartRecoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartRecoderTests-Info.plist"; sourceTree = "<group>"; };
 		57B1D795195EF2B300A9FD47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57B1D797195EF2B300A9FD47 /* SmartRecoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRecoderTests.m; sourceTree = "<group>"; };
+		57B1D7EE1960803600A9FD47 /* MainWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindows.xib; sourceTree = "<group>"; };
+		57B1D7F01960981E00A9FD47 /* gauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gauge.png; sourceTree = "<group>"; };
+		57B1D7F11960981E00A9FD47 /* record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_off.png; sourceTree = "<group>"; };
+		57B1D7F21960981E00A9FD47 /* record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_on.png; sourceTree = "<group>"; };
+		57B1D7F61960982900A9FD47 /* listicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +117,13 @@
 		57B1D778195EF2B200A9FD47 /* SmartRecoder */ = {
 			isa = PBXGroup;
 			children = (
+				57B1D7F01960981E00A9FD47 /* gauge.png */,
+				57B1D7F11960981E00A9FD47 /* record_off.png */,
+				57B1D7F21960981E00A9FD47 /* record_on.png */,
+				57B1D7F61960982900A9FD47 /* listicon.png */,
 				57B1D781195EF2B300A9FD47 /* AppDelegate.h */,
 				57B1D782195EF2B300A9FD47 /* AppDelegate.m */,
+				57B1D7EE1960803600A9FD47 /* MainWindows.xib */,
 				57B1D784195EF2B300A9FD47 /* Images.xcassets */,
 				57B1D779195EF2B200A9FD47 /* Supporting Files */,
 			);
@@ -220,6 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B1D77D195EF2B300A9FD47 /* InfoPlist.strings in Resources */,
+				57B1D7F71960982900A9FD47 /* listicon.png in Resources */,
+				57B1D7F51960981E00A9FD47 /* record_on.png in Resources */,
+				57B1D7F41960981E00A9FD47 /* record_off.png in Resources */,
+				57B1D7F31960981E00A9FD47 /* gauge.png in Resources */,
+				57B1D7EF1960803600A9FD47 /* MainWindows.xib in Resources */,
 				57B1D785195EF2B300A9FD47 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +457,7 @@
 				57B1D79D195EF2B300A9FD47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B1D79E195EF2B300A9FD47 /* Build configuration list for PBXNativeTarget "SmartRecoderTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				57B1D7A0195EF2B300A9FD47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
