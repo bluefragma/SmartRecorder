@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572CC40119666810004CDDA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CC40019666810004CDDA9 /* AVFoundation.framework */; };
+		572CC4031966681A004CDDA9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CC4021966681A004CDDA9 /* MessageUI.framework */; };
+		572CC40519666830004CDDA9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CC40419666830004CDDA9 /* libsqlite3.0.dylib */; };
+		572CC408196669FB004CDDA9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572CC407196669FB004CDDA9 /* RootViewController.m */; };
+		572CC40C19666A8F004CDDA9 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572CC40A19666A8E004CDDA9 /* RecordViewController.m */; };
+		572CC40D19666A8F004CDDA9 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572CC40B19666A8F004CDDA9 /* RecordViewController.xib */; };
+		572CC41119666B8F004CDDA9 /* AudioRecorderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 572CC40F19666B8F004CDDA9 /* AudioRecorderInfo.m */; };
+		572CC41219666B8F004CDDA9 /* AudioRecorderInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572CC41019666B8F004CDDA9 /* AudioRecorderInfo.xib */; };
+		572CC41619666BCB004CDDA9 /* RecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572CC41419666BCB004CDDA9 /* RecordListViewController.m */; };
+		572CC41719666BCB004CDDA9 /* RecordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572CC41519666BCB004CDDA9 /* RecordListViewController.xib */; };
 		57B1D773195EF2B200A9FD47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D772195EF2B200A9FD47 /* Foundation.framework */; };
 		57B1D775195EF2B200A9FD47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */; };
 		57B1D777195EF2B200A9FD47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B1D776195EF2B200A9FD47 /* UIKit.framework */; };
@@ -37,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		572CC40019666810004CDDA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		572CC4021966681A004CDDA9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		572CC40419666830004CDDA9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		572CC406196669FB004CDDA9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		572CC407196669FB004CDDA9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		572CC40919666A8E004CDDA9 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		572CC40A19666A8E004CDDA9 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		572CC40B19666A8F004CDDA9 /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		572CC40E19666B8F004CDDA9 /* AudioRecorderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorderInfo.h; sourceTree = "<group>"; };
+		572CC40F19666B8F004CDDA9 /* AudioRecorderInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorderInfo.m; sourceTree = "<group>"; };
+		572CC41019666B8F004CDDA9 /* AudioRecorderInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioRecorderInfo.xib; sourceTree = "<group>"; };
+		572CC41319666BCB004CDDA9 /* RecordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordListViewController.h; sourceTree = "<group>"; };
+		572CC41419666BCB004CDDA9 /* RecordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordListViewController.m; sourceTree = "<group>"; };
+		572CC41519666BCB004CDDA9 /* RecordListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordListViewController.xib; sourceTree = "<group>"; };
 		57B1D76F195EF2B200A9FD47 /* SmartRecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B1D772195EF2B200A9FD47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572CC40519666830004CDDA9 /* libsqlite3.0.dylib in Frameworks */,
+				572CC4031966681A004CDDA9 /* MessageUI.framework in Frameworks */,
+				572CC40119666810004CDDA9 /* AVFoundation.framework in Frameworks */,
 				57B1D775195EF2B200A9FD47 /* CoreGraphics.framework in Frameworks */,
 				57B1D777195EF2B200A9FD47 /* UIKit.framework in Frameworks */,
 				57B1D773195EF2B200A9FD47 /* Foundation.framework in Frameworks */,
@@ -106,6 +133,9 @@
 		57B1D771195EF2B200A9FD47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				572CC40419666830004CDDA9 /* libsqlite3.0.dylib */,
+				572CC4021966681A004CDDA9 /* MessageUI.framework */,
+				572CC40019666810004CDDA9 /* AVFoundation.framework */,
 				57B1D772195EF2B200A9FD47 /* Foundation.framework */,
 				57B1D774195EF2B200A9FD47 /* CoreGraphics.framework */,
 				57B1D776195EF2B200A9FD47 /* UIKit.framework */,
@@ -124,6 +154,17 @@
 				57B1D781195EF2B300A9FD47 /* AppDelegate.h */,
 				57B1D782195EF2B300A9FD47 /* AppDelegate.m */,
 				57B1D7EE1960803600A9FD47 /* MainWindows.xib */,
+				572CC406196669FB004CDDA9 /* RootViewController.h */,
+				572CC407196669FB004CDDA9 /* RootViewController.m */,
+				572CC40919666A8E004CDDA9 /* RecordViewController.h */,
+				572CC40A19666A8E004CDDA9 /* RecordViewController.m */,
+				572CC40B19666A8F004CDDA9 /* RecordViewController.xib */,
+				572CC40E19666B8F004CDDA9 /* AudioRecorderInfo.h */,
+				572CC40F19666B8F004CDDA9 /* AudioRecorderInfo.m */,
+				572CC41019666B8F004CDDA9 /* AudioRecorderInfo.xib */,
+				572CC41319666BCB004CDDA9 /* RecordListViewController.h */,
+				572CC41419666BCB004CDDA9 /* RecordListViewController.m */,
+				572CC41519666BCB004CDDA9 /* RecordListViewController.xib */,
 				57B1D784195EF2B300A9FD47 /* Images.xcassets */,
 				57B1D779195EF2B200A9FD47 /* Supporting Files */,
 			);
@@ -241,6 +282,9 @@
 				57B1D7F31960981E00A9FD47 /* gauge.png in Resources */,
 				57B1D7EF1960803600A9FD47 /* MainWindows.xib in Resources */,
 				57B1D785195EF2B300A9FD47 /* Images.xcassets in Resources */,
+				572CC41219666B8F004CDDA9 /* AudioRecorderInfo.xib in Resources */,
+				572CC40D19666A8F004CDDA9 /* RecordViewController.xib in Resources */,
+				572CC41719666BCB004CDDA9 /* RecordListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572CC41119666B8F004CDDA9 /* AudioRecorderInfo.m in Sources */,
 				57B1D783195EF2B300A9FD47 /* AppDelegate.m in Sources */,
 				57B1D77F195EF2B300A9FD47 /* main.m in Sources */,
+				572CC41619666BCB004CDDA9 /* RecordListViewController.m in Sources */,
+				572CC408196669FB004CDDA9 /* RootViewController.m in Sources */,
+				572CC40C19666A8F004CDDA9 /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
