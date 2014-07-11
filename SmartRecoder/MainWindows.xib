@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <customObject id="gRl-V9-AWr" customClass="AppDelegate">
             <connections>
+                <outlet property="pRootViewController" destination="laN-gi-LdU" id="83g-jI-dmb"/>
                 <outlet property="window" destination="440-Cy-0BY" id="5Xd-tw-2SW"/>
             </connections>
         </customObject>

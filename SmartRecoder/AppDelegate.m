@@ -10,10 +10,10 @@
 
 @implementation AppDelegate
 
+@synthesize pRootViewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self.window makeKeyAndVisible];
-    
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
     
 //    if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
@@ -25,7 +25,35 @@
 //        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
 //    }
     
+    [self CopyOfDataBaseIfNeeded];
+    [self.window addSubview:[pRootViewController view]];
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+//번들 데이터베이스 복사
+- (BOOL) CopyOfDataBaseIfNeeded
+{
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	
+	NSString *documentDirectory = [paths objectAtIndex:0];
+	
+	NSString *myPath = [documentDirectory stringByAppendingPathComponent:@"RecordDB.sqlite"];
+	
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	BOOL exist = [fileManager fileExistsAtPath:myPath];
+	
+	if (exist) {
+		NSLog(@"DB가 존재합니다.");
+		return TRUE;
+	}
+	
+    //파일이 없다면 리소스에서 파일 복사
+	NSString *defaultDBPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"RecordDB.sqlite"];
+	
+	return [fileManager copyItemAtPath:defaultDBPath toPath:myPath error:nil];
 }
 
 - (BOOL)prefersStatusBarHidden

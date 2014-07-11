@@ -10,6 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (weak, nonatomic) IBOutlet UIViewController *pRootViewController;
 @property (strong, nonatomic) IBOutlet UIWindow *window;
+
 
 @end
