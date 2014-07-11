@@ -34,6 +34,11 @@
 		57B1D7F41960981E00A9FD47 /* record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F11960981E00A9FD47 /* record_off.png */; };
 		57B1D7F51960981E00A9FD47 /* record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F21960981E00A9FD47 /* record_on.png */; };
 		57B1D7F71960982900A9FD47 /* listicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B1D7F61960982900A9FD47 /* listicon.png */; };
+		57FC09A7197037EB001ACFF4 /* MeterGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC09A6197037EB001ACFF4 /* MeterGaugeView.m */; };
+		57FC09AA1970387F001ACFF4 /* RecordDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC09A91970387F001ACFF4 /* RecordDataBase.m */; };
+		57FC09AD1970A385001ACFF4 /* RecordDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 57FC09AC1970A385001ACFF4 /* RecordDB.sqlite */; };
+		57FC09B11970A3CD001ACFF4 /* UIMemoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FC09AF1970A3CD001ACFF4 /* UIMemoListCell.m */; };
+		57FC09B21970A3CD001ACFF4 /* UIMemoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FC09B01970A3CD001ACFF4 /* UIMemoListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +87,14 @@
 		57B1D7F11960981E00A9FD47 /* record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_off.png; sourceTree = "<group>"; };
 		57B1D7F21960981E00A9FD47 /* record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record_on.png; sourceTree = "<group>"; };
 		57B1D7F61960982900A9FD47 /* listicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listicon.png; sourceTree = "<group>"; };
+		57FC09A5197037EB001ACFF4 /* MeterGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterGaugeView.h; sourceTree = "<group>"; };
+		57FC09A6197037EB001ACFF4 /* MeterGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeterGaugeView.m; sourceTree = "<group>"; };
+		57FC09A81970387F001ACFF4 /* RecordDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDataBase.h; sourceTree = "<group>"; };
+		57FC09A91970387F001ACFF4 /* RecordDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDataBase.m; sourceTree = "<group>"; };
+		57FC09AC1970A385001ACFF4 /* RecordDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RecordDB.sqlite; sourceTree = "<group>"; };
+		57FC09AE1970A3CD001ACFF4 /* UIMemoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMemoListCell.h; sourceTree = "<group>"; };
+		57FC09AF1970A3CD001ACFF4 /* UIMemoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMemoListCell.m; sourceTree = "<group>"; };
+		57FC09B01970A3CD001ACFF4 /* UIMemoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIMemoListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +160,7 @@
 		57B1D778195EF2B200A9FD47 /* SmartRecoder */ = {
 			isa = PBXGroup;
 			children = (
-				57B1D7F01960981E00A9FD47 /* gauge.png */,
-				57B1D7F11960981E00A9FD47 /* record_off.png */,
-				57B1D7F21960981E00A9FD47 /* record_on.png */,
-				57B1D7F61960982900A9FD47 /* listicon.png */,
+				57FC09AB1970A36F001ACFF4 /* Resources */,
 				57B1D781195EF2B300A9FD47 /* AppDelegate.h */,
 				57B1D782195EF2B300A9FD47 /* AppDelegate.m */,
 				57B1D7EE1960803600A9FD47 /* MainWindows.xib */,
@@ -165,6 +175,13 @@
 				572CC41319666BCB004CDDA9 /* RecordListViewController.h */,
 				572CC41419666BCB004CDDA9 /* RecordListViewController.m */,
 				572CC41519666BCB004CDDA9 /* RecordListViewController.xib */,
+				57FC09A5197037EB001ACFF4 /* MeterGaugeView.h */,
+				57FC09A6197037EB001ACFF4 /* MeterGaugeView.m */,
+				57FC09A81970387F001ACFF4 /* RecordDataBase.h */,
+				57FC09A91970387F001ACFF4 /* RecordDataBase.m */,
+				57FC09AE1970A3CD001ACFF4 /* UIMemoListCell.h */,
+				57FC09AF1970A3CD001ACFF4 /* UIMemoListCell.m */,
+				57FC09B01970A3CD001ACFF4 /* UIMemoListCell.xib */,
 				57B1D784195EF2B300A9FD47 /* Images.xcassets */,
 				57B1D779195EF2B200A9FD47 /* Supporting Files */,
 			);
@@ -198,6 +215,18 @@
 				57B1D794195EF2B300A9FD47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57FC09AB1970A36F001ACFF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57FC09AC1970A385001ACFF4 /* RecordDB.sqlite */,
+				57B1D7F01960981E00A9FD47 /* gauge.png */,
+				57B1D7F11960981E00A9FD47 /* record_off.png */,
+				57B1D7F21960981E00A9FD47 /* record_on.png */,
+				57B1D7F61960982900A9FD47 /* listicon.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,12 +307,14 @@
 				57B1D77D195EF2B300A9FD47 /* InfoPlist.strings in Resources */,
 				57B1D7F71960982900A9FD47 /* listicon.png in Resources */,
 				57B1D7F51960981E00A9FD47 /* record_on.png in Resources */,
+				57FC09B21970A3CD001ACFF4 /* UIMemoListCell.xib in Resources */,
 				57B1D7F41960981E00A9FD47 /* record_off.png in Resources */,
 				57B1D7F31960981E00A9FD47 /* gauge.png in Resources */,
 				57B1D7EF1960803600A9FD47 /* MainWindows.xib in Resources */,
 				57B1D785195EF2B300A9FD47 /* Images.xcassets in Resources */,
 				572CC41219666B8F004CDDA9 /* AudioRecorderInfo.xib in Resources */,
 				572CC40D19666A8F004CDDA9 /* RecordViewController.xib in Resources */,
+				57FC09AD1970A385001ACFF4 /* RecordDB.sqlite in Resources */,
 				572CC41719666BCB004CDDA9 /* RecordListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,12 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FC09A7197037EB001ACFF4 /* MeterGaugeView.m in Sources */,
 				572CC41119666B8F004CDDA9 /* AudioRecorderInfo.m in Sources */,
 				57B1D783195EF2B300A9FD47 /* AppDelegate.m in Sources */,
 				57B1D77F195EF2B300A9FD47 /* main.m in Sources */,
 				572CC41619666BCB004CDDA9 /* RecordListViewController.m in Sources */,
 				572CC408196669FB004CDDA9 /* RootViewController.m in Sources */,
 				572CC40C19666A8F004CDDA9 /* RecordViewController.m in Sources */,
+				57FC09B11970A3CD001ACFF4 /* UIMemoListCell.m in Sources */,
+				57FC09AA1970387F001ACFF4 /* RecordDataBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

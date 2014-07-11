@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecordViewController">
             <connections>
+                <outlet property="ListButton" destination="qOt-Jz-Ahb" id="vvT-Zs-TzN"/>
+                <outlet property="pGaugeView" destination="hpp-hR-S3T" id="dND-Zh-3vz"/>
+                <outlet property="pRecordButton" destination="rnh-0D-4F5" id="BOq-Ys-Ocq"/>
+                <outlet property="recordTimeDisplay" destination="cee-IB-Dfj" id="shV-gj-ubl"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,7 +25,7 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpp-hR-S3T">
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpp-hR-S3T" customClass="MeterGaugeView">
                     <rect key="frame" x="43" y="111" width="240" height="203"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -33,6 +37,9 @@
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="AudioRecordingClick:" destination="-1" eventType="touchUpInside" id="kqR-vB-fzd"/>
+                    </connections>
                 </button>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GEy-up-IBM">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>

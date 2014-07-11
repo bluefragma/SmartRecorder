@@ -17,6 +17,10 @@
 
 @implementation RootViewController
 
+@synthesize pRecordViewController;
+@synthesize pAudioRecorderInfo;
+@synthesize pRecordListViewController;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
